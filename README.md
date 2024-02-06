@@ -77,7 +77,7 @@ https://github.com/chawins/llm-sp
 
 [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://arxiv.org/pdf/2311.11855.pdf)
 
-[ToolEmu: Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/pdf/2309.15817.pdf)
+[Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/pdf/2309.15817.pdf)
 
 [GPT in Sheep's Clothing: The Risk of Customized GPTs](https://arxiv.org/pdf/2401.09075.pdf)
 
@@ -212,7 +212,7 @@ https://github.com/chawins/llm-sp
 
 [A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)
 
-[FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models,](https://arxiv.org/pdf/2309.05274)
+[FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models](https://arxiv.org/pdf/2309.05274)
 
 [Prompt Packer: Deceiving LLMs through Compositional Instruction with Hidden Attacks](https://arxiv.org/pdf/2310.10077.pdf)
 
@@ -230,9 +230,9 @@ https://github.com/chawins/llm-sp
 
 [JADE: A Linguistics-based Safety Evaluation Platform for Large Language Models](https://arxiv.org/pdf/2311.00286.pdf) 
 
-[Open Sesame! Universal Black Box Jailbreaking of Large Language Models,](https://arxiv.org/pdf/2309.01446) 
+[Open Sesame! Universal Black Box Jailbreaking of Large Language Models](https://arxiv.org/pdf/2309.01446) 
 
-[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models,](https://arxiv.org/pdf/2310.04451) 
+[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models](https://arxiv.org/pdf/2310.04451) 
 
 [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451.pdf) 
 
@@ -255,7 +255,7 @@ https://github.com/chawins/llm-sp
 
 #### Transfer Attack
 
-[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models,](https://arxiv.org/pdf/2310.04451)
+[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models](https://arxiv.org/pdf/2310.04451)
 
 [Weak-to-Strong Jailbreaking on Large Language Models](https://arxiv.org/pdf/2401.17256.pdf)
 
@@ -272,7 +272,7 @@ https://github.com/chawins/llm-sp
 
 [MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/pdf/2307.08715.pdf) 
 
-[Multi-step Jailbreaking Privacy Attacks on ChatGPT,](https://arxiv.org/abs/2304.05197) 
+[Multi-step Jailbreaking Privacy Attacks on ChatGPT](https://arxiv.org/abs/2304.05197) 
 
 [Adversarial Attacks and Defenses in Large Language Models: Old and New Threats](https://arxiv.org/pdf/2310.19737.pdf)
 
@@ -401,7 +401,7 @@ https://github.com/chawins/llm-sp
 
 #### Benchmarks 
 
-[Walking a Tightrope \u9225?Evaluating Large Language Models in High-Risk Domains](https://arxiv.org/pdf/2311.14966.pdf)
+[Walking a Tightrope -- Evaluating Large Language Models in High-Risk Domains](https://arxiv.org/pdf/2311.14966.pdf)
 
 [SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese](https://arxiv.org/pdf/2310.05818)
 
@@ -423,7 +423,7 @@ https://github.com/chawins/llm-sp
 
 [XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://arxiv.org/pdf/2308.01263) 
 
-[Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models,](https://arxiv.org/pdf/2307.08487)
+[Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models](https://arxiv.org/pdf/2307.08487)
 
 [Tall tales at different scales: Evaluating scaling trends for deception in language models](https://openreview.net/forum?id=YRXDl6I3j5)
 
