@@ -50,7 +50,7 @@ TODO: add an introduction to this paper
 
 
 ### Surveys and Collections
-s
+
 https://llmsecurity.net/
 
 https://github.com/chawins/llm-sp
@@ -102,7 +102,7 @@ https://github.com/chawins/llm-sp
 
 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/pdf/2309.07875)
 
-[Shadow Alignment: The Ease of Subverting Safely-Aligned Language Models"](https://arxiv.org/pdf/2310.02949)
+[Shadow Alignment: The Ease of Subverting Safely-Aligned Language Models](https://arxiv.org/pdf/2310.02949)
 
 [Sleeper agents: Training deceptive llms that persist through safety training](https://arxiv.org/pdf/2401.05566.pdf)
 
@@ -166,7 +166,7 @@ https://github.com/chawins/llm-sp
 
 [Safety Alignment in NLP Tasks: Weakly Aligned Summarization as an In-Context Attack](https://arxiv.org/pdf/2312.06924.pdf)
 
-[Why do universal adversarial attacks work on large language models?: Geometry might be the answer"](https://arxiv.org/pdf/2309.00254)
+[Why do universal adversarial attacks work on large language models?: Geometry might be the answer](https://arxiv.org/pdf/2309.00254)
 
 [Navigating the OverKill in Large Language Models](https://arxiv.org/abs/2401.17633)
 
@@ -212,7 +212,7 @@ https://github.com/chawins/llm-sp
 
 [A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)
 
-["FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models",](https://arxiv.org/pdf/2309.05274)
+[FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models,](https://arxiv.org/pdf/2309.05274)
 
 [Prompt Packer: Deceiving LLMs through Compositional Instruction with Hidden Attacks](https://arxiv.org/pdf/2310.10077.pdf)
 
@@ -230,9 +230,9 @@ https://github.com/chawins/llm-sp
 
 [JADE: A Linguistics-based Safety Evaluation Platform for Large Language Models](https://arxiv.org/pdf/2311.00286.pdf) 
 
-["Open Sesame! Universal Black Box Jailbreaking of Large Language Models",](https://arxiv.org/pdf/2309.01446) 
+[Open Sesame! Universal Black Box Jailbreaking of Large Language Models,](https://arxiv.org/pdf/2309.01446) 
 
-["AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models",](https://arxiv.org/pdf/2310.04451) 
+[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models,](https://arxiv.org/pdf/2310.04451) 
 
 [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451.pdf) 
 
@@ -255,7 +255,7 @@ https://github.com/chawins/llm-sp
 
 #### Transfer Attack
 
-["AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models",](https://arxiv.org/pdf/2310.04451)
+[AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models,](https://arxiv.org/pdf/2310.04451)
 
 [Weak-to-Strong Jailbreaking on Large Language Models](https://arxiv.org/pdf/2401.17256.pdf)
 
@@ -264,7 +264,7 @@ https://github.com/chawins/llm-sp
 
 #### Other
 
-[GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher"](https://arxiv.org/pdf/2308.06463) 
+[GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/pdf/2308.06463) 
 
 [Analyzing the Inherent Response Tendency of LLMs: Real-World Instructions-Driven Jailbreak](https://arxiv.org/pdf/2312.04127.pdf) 
 
@@ -272,7 +272,7 @@ https://github.com/chawins/llm-sp
 
 [MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/pdf/2307.08715.pdf) 
 
-["Multi-step Jailbreaking Privacy Attacks on ChatGPT",](https://arxiv.org/abs/2304.05197) 
+[Multi-step Jailbreaking Privacy Attacks on ChatGPT,](https://arxiv.org/abs/2304.05197) 
 
 [Adversarial Attacks and Defenses in Large Language Models: Old and New Threats](https://arxiv.org/pdf/2310.19737.pdf)
 
@@ -294,7 +294,7 @@ https://github.com/chawins/llm-sp
 
 [FigStep: Jailbreaking Large Vision-language Models via Typographic Visual Prompts](https://arxiv.org/pdf/2311.05608.pdf) 
 
-[How Robust is Google's Bard to Adversarial Image Attacks?"](https://arxiv.org/pdf/2309.11751) 
+[How Robust is Google's Bard to Adversarial Image Attacks?](https://arxiv.org/pdf/2309.11751) 
 
 [How Many Unicorns Are in This Image? A Safety Evaluation Benchmark for Vision LLMs](https://arxiv.org/pdf/2311.16101.pdf) 
 
@@ -343,7 +343,7 @@ https://github.com/chawins/llm-sp
 
 #### Multi-Stage
 
-["NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails"](https://arxiv.org/pdf/2310.10501.pdf) 
+[NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails](https://arxiv.org/pdf/2310.10501.pdf) 
 
 [GUARDIAN: A Multi-Tiered Defense Architecture for Thwarting Prompt Injection Attacks on LLMs](https://www.scirp.org/journal/paperinformation?paperid=130663) 
 
@@ -395,7 +395,7 @@ https://github.com/chawins/llm-sp
 
 [Beyond the Safeguards: Exploring the Security Risks of ChatGPT](http://arxiv.org/pdf/2305.08005)
 
-["It's a Fair Game or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents"](https://arxiv.org/pdf/2309.11653)
+[It's a Fair Game or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents](https://arxiv.org/pdf/2309.11653)
 
 
 
@@ -423,7 +423,7 @@ https://github.com/chawins/llm-sp
 
 [XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://arxiv.org/pdf/2308.01263) 
 
-["Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models",](https://arxiv.org/pdf/2307.08487)
+[Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models,](https://arxiv.org/pdf/2307.08487)
 
 [Tall tales at different scales: Evaluating scaling trends for deception in language models](https://openreview.net/forum?id=YRXDl6I3j5)
 
