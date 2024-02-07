@@ -6,10 +6,12 @@
 [Zenan Zhai](),
 [Xudong Han](),
 [Renxi Wang](),
-[Junjie Gao](),
 [Honglin Mu](),
-[Hao Li]()
-  <!-- list of contributors  -->
+[Junjie Gao]()
+
+
+
+<!-- list of contributors  -->
 ## Introduction
 TODO: add an introduction to this paper
 
