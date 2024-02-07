@@ -1,4 +1,4 @@
-# Papers about red-teaming. 
+# Papers about red-teaming
 
 [Lizhi Lin](https://github.com/Shomvel),
 [Yuxia Wang](https://github.com/yuxiaw),
@@ -9,11 +9,8 @@
 [Honglin Mu](),
 [Junjie Gao]()
 
-
-
-<!-- list of contributors  -->
 ## Introduction
-TODO: add an introduction to this paper
+We review recent papers about red-teaming foundation models, collecting 150+ papers covering risk taxonomy, attack methods of language models and multimodal modals, defenses and evaluations. We highlight the conflicting optimization objective of helpfulness and harmlessness and the way in which core capabilities of foundation models are involved. Survey paper coming soon. 
 
 **Disclaimer: We may miss some relevant papers in the list. If you have any suggestions or would like to add some papers, please submit a pull request or email us. Your contribution is much appreciated!**
 
