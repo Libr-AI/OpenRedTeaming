@@ -57,9 +57,9 @@ We review recent papers about red-teaming foundation models, collecting 150+ pap
 
 ### Surveys and Collections
 
-https://llmsecurity.net/
+- **LLM Security** [Github](https://llmsecurity.net/)
 
-https://github.com/chawins/llm-sp
+- **LLM Security & Privacy** [Github](https://github.com/chawins/llm-sp)
 
 - **Awesome LLM-Safety** \[[GitHub](https://github.com/ydyjya/Awesome-LLM-Safety/tree/main)\] <br />
 
