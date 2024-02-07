@@ -7,10 +7,10 @@
 [Xudong Han](https://github.com/HanXudong),
 [Renxi Wang](https://renxiwang.site/),
 [Honglin Mu](https://github.com/hlmu),
-[Junjie Gao]()
+[Junjie Gao](https://github.com/Junjie-Gao19)
 
 ## Introduction
-We review recent papers about red-teaming foundation models, collecting 150+ papers covering risk taxonomy, attack methods of language models and multimodal modals, defenses and evaluations. We highlight the conflicting optimization objective of helpfulness and harmlessness and the way in which core capabilities of foundation models are involved. Survey paper coming soon. 
+We review recent papers about red-teaming foundation models, collecting 150+ papers covering risk taxonomy, attack methods of language models and multimodal models, defenses and evaluations. We highlight the conflicting optimization objective of helpfulness and harmlessness and the way in which core capabilities of foundation models are involved, and build attack taxonomies accordingly. Survey paper coming soon. 
 
 **Disclaimer: We may miss some relevant papers in the list. If you have any suggestions or would like to add some papers, please submit a pull request or email us. Your contribution is much appreciated!**
 
