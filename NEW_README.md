@@ -1,11 +1,11 @@
 # Papers about red-teaming. 
 
-[Lizhi Lin](),
-[Yuxia Wang](),
-[Haonan Li](),
-[Zenan Zhai](),
-[Xudong Han](),
-[Renxi Wang](),
+[Lizhi Lin](https://github.com/Shomvel),
+[Yuxia Wang](https://github.com/yuxiaw),
+[Haonan Li](https://haonan-li.github.io/),
+[Zenan Zhai](https://github.com/zenanz),
+[Xudong Han](https://github.com/HanXudong),
+[Renxi Wang](https://renxiwang.site/),
 [Honglin Mu](),
 [Junjie Gao]()
 
