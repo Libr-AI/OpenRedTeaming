@@ -5,8 +5,9 @@ To gain a comprehensive understanding of potential attacks on GenAI and develop 
 * Survey over 120 papers, cover the pipeline from risk taxonomy, attack strategies, evaluation metrics, and benchmarks to defensive approaches.
 * propose a comprehensive taxonomy of LLM attack strategies grounded in the inherent capabilities of models developed during pretraining and fine-tuning.
 * Implemented more than 30+ auto red teaming methods. (Which will not be open-sourced to avoid malicious use.)
+* Please review the [complete list of papers](/paper_list/README.md) for the latest research.
 
-To stay updated or try our RedTeaming tool, please subscribe to our newsletter at [our website](https://www.librai.tech/) or join us on [Discord](https://discord.com/invite/NRge6RS7)!
+To stay updated or try our RedTeaming tool, please subscribe to our newsletter at [our website](https://www.librai.tech/) or join us on [Discord](https://discord.gg/3Yxgth5E)!
 
 ## Read our Survey: Against The Achilles’ Heel: A Survey on Red Teaming for Generative Models [[Paper](https://arxiv.org/abs/2404.00629)]
 
