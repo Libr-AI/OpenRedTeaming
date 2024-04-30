@@ -6,78 +6,13 @@ To gain a comprehensive understanding of potential attacks on GenAI and develop 
 * propose a comprehensive taxonomy of LLM attack strategies grounded in the inherent capabilities of models developed during pretraining and fine-tuning.
 * Implemented more than 30+ auto red teaming methods.
 
-To stay updated or try our RedTeaming tool, please subscribe to our newsletter at [our website](https://www.librai.tech/) or join us on [Discord](https://discord.gg/3Yxgth5E)!
+To stay updated or try our RedTeaming tool, please subscribe to our newsletter at [our website](https://www.librai.tech/) or join us on [Discord](https://discord.com/invite/ssxtFVbDdT)!
 
 
 
 # Latest Papers about Red Teaming 
-## Table of Contents
-- Surveys, Taxonomies and more
-	 - [Surveys](#surveys)
-		 - [Surveys on Attacks](#surveys-on-attacks)
-		 - [Surveys on Risks](#surveys-on-risks)
-	 - [Taxonomies](#taxonomies)
-	 - [Positions](#positions)
-	 - [Phenomenons](#phenomenons)
-- Attack Strategies
-	 - [Completion Compliance](#completion-compliance)
-	 - [Instruction Indirection](#instruction-indirection)
-	 - [Generalization Glide](#generalization-glide)
-		 - [Languages](#languages)
-		 - [Cipher](#cipher)
-		 - [Personification](#personification)
-	 - [Model Manipulation](#model-manipulation)
-		 - [Backdoor Attacks](#backdoor-attacks)
-		 - [Fine-tuning Risks](#fine-tuning-risks)
-- Attack Searchers
-	 - [Suffix Searchers](#suffix-searchers)
-	 - [Prompt Searchers](#prompt-searchers)
-		 - [Language Model](#language-model)
-		 - [Decoding](#decoding)
-		 - [Genetic Algorithm](#genetic-algorithm)
-		 - [Reinforcement Learning](#reinforcement-learning)
-- Defenses
-	 - [Training Time Defenses](#training-time-defenses)
-		 - [RLHF](#rlhf)
-		 - [Fine-tuning](#fine-tuning)
-	 - [Inference Time Defenses](#inference-time-defenses)
-		 - [Prompting](#prompting)
-		 - [Ensemble](#ensemble)
-		 - [Guardrails](#guardrails)
-			 - [Input Guardrails](#input-guardrails)
-			 - [Output Guardrails](#output-guardrails)
-			 - [Input & Output Guardrails](#input-&-output-guardrails)
-		 - [Adversarial Suffix Defenses](#adversarial-suffix-defenses)
-		 - [Decoding Defenses](#decoding-defenses)
-- Evaluations
-	 - [Evaluation Metrics](#evaluation-metrics)
-		 - [Attack Metrics](#attack-metrics)
-		 - [Defense Metrics](#defense-metrics)
-	 - [Evaluation Benchmarks](#evaluation-benchmarks)
-- Applications
-	 - [Application Domains](#application-domains)
-		 - [Agent](#agent)
-		 - [Programming](#programming)
-	 - [Application Risks](#application-risks)
-		 - [Prompt Injection](#prompt-injection)
-		 - [Prompt Extraction](#prompt-extraction)
-- Multimodal Red Teaming
-	 - [Attack Strategies](#attack-strategies)
-		 - [Completion Compliance](#completion-compliance)
-		 - [Instruction Indirection](#instruction-indirection)
-	 - [Attack Searchers](#attack-searchers)
-		 - [Image Searchers](#image-searchers)
-		 - [Cross Modality Searchers](#cross-modality-searchers)
-		 - [Others](#others)
-	 - [Defense](#defense)
-		 - [Guardrail Defenses](#guardrail-defenses)
-		 - [Other Defenses](#other-defenses)
-	 - [Application](#application)
-		 - [Agents](#agents)
-	 - [Benchmarks](#benchmarks)
-
 <details>
-  <summary>Surveys, Taxonomies and more</summary>
+<summary  style="font-size: 20px;">Surveys, Taxonomies and more</summary>
 
 <details>
 <summary>Surveys</summary>
@@ -220,7 +155,7 @@ Chi Zhang, Zifan Wang, Ravi Mangal, Matt Fredrikson, Limin Jia, Corina Pasareanu
 
 
 <details>
-  <summary>Attack Strategies</summary>
+<summary  style="font-size: 20px;">Attack Strategies</summary>
 
 <details>
 <summary>Completion Compliance</summary>
