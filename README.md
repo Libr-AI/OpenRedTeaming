@@ -12,10 +12,10 @@ To stay updated or try our RedTeaming tool, please subscribe to our newsletter a
 
 # Latest Papers about Red Teaming 
 <details>
-<summary  style="font-size: 20px;">Surveys, Taxonomies and more</summary>
+<summary style="font-size: 25px;">Surveys, Taxonomies and more</summary>
 
 <details>
-<summary>Surveys</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Surveys</summary>
 
 <!-- Markdown content -->
 ## Surveys
@@ -80,7 +80,7 @@ Shibo Wen (2024)<br />
 </details>
 
 <details>
-<summary>Taxonomies</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Taxonomies</summary>
 
 <!-- Markdown content -->
 ## Taxonomies
@@ -104,7 +104,7 @@ Erik Derner, Kristina Batistič, Jan Zahálka, Robert Babuška (2023)<br />
 </details>
 
 <details>
-<summary>Positions</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Positions</summary>
 
 <!-- Markdown content -->
 
@@ -122,7 +122,7 @@ Alexander J. Titus, Adam H. Russell (2023)<br />
 </details>
 
 <details>
-<summary>Phenomenons</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Phenomenons</summary>
 
 <!-- Markdown content -->
 ## Phenomenons
@@ -139,7 +139,7 @@ Boyi Wei, Kaixuan Huang, Yangsibo Huang, Tinghao Xie, Xiangyu Qi, Mengzhou Xia, 
 - **"It's a Fair Game'',or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents** \[[Paper](https://arxiv.org/abs/2309.11653)\] <br />
 Zhiping Zhang, Michelle Jia, Hao-Ping Lee, Bingsheng Yao, Sauvik Das, Ada Lerner, Dakuo Wang, Tianshi Li (2023)<br />
 - **Exploiting Programmatic Behavior of LLMs: Dual-Use Through Standard Security Attacks** \[[Paper](https://arxiv.org/abs/2302.05733)\] <br />
-Daniel Kang, Xuechen Li, Ion Stoica, Carlos Guestrin, Matei Zaharia, Tatsunori Hashimoto (2023)<br />
+aniel Kang, Xuechen Li, Ion Stoica, Carlos Guestrin, Matei Zaharia, Tatsunori Hashimoto (2023)<br />
 - **Can Large Language Models Change User Preference Adversarially?** \[[Paper](https://arxiv.org/abs/2302.10291)\] <br />
 Varshini Subhash (2023)<br />
 - **Are aligned neural networks adversarially aligned?** \[[Paper](https://arxiv.org/abs/2306.15447)\] <br />
@@ -155,10 +155,10 @@ Chi Zhang, Zifan Wang, Ravi Mangal, Matt Fredrikson, Limin Jia, Corina Pasareanu
 
 
 <details>
-<summary  style="font-size: 20px;">Attack Strategies</summary>
+<summary  style="font-size: 25px;">Attack Strategies</summary>
 
 <details>
-<summary>Completion Compliance</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Completion Compliance</summary>
 
 <!-- Markdown content -->
 ## Completion Compliance
@@ -188,7 +188,7 @@ Jason Vega, Isha Chaudhary, Changming Xu, Gagandeep Singh (2023)<br />
 Yao Qiang, Xiangyu Zhou, Dongxiao Zhu (2023)<br />
 </details>
 <details>
-<summary>Inference Indirection</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Inference Indirection</summary>
 
 <!-- Markdown content -->
 ## Instruction Indirection
@@ -227,7 +227,7 @@ Nan Xu, Fei Wang, Ben Zhou, Bang Zheng Li, Chaowei Xiao, Muhao Chen (2023)<br />
 </details>
 
 <details>
-<summary>Generalization Glide</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Generalization Glide</summary>
 
 <!-- Markdown content -->
 ## Generalization Glide
@@ -273,7 +273,7 @@ Sonali Singh, Faranak Abri, Akbar Siami Namin (2023)<br />
 </details>
 
 <details>
-<summary>Model Manipulation</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Model Manipulation</summary>
 
 <!-- Markdown content -->
 ## Model Manipulation
@@ -331,9 +331,9 @@ Xiangyu Qi, Yi Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter 
 </details>
 
 <details>
-<summary>Attack Searchers</summary>
+<summary style="font-size: 25px;">Attack Searchers</summary>
 <details>
-<summary>Suffix Searchers</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Suffix Searchers</summary>
 
 <!-- Markdown content -->
 ## Suffix Searchers
@@ -367,7 +367,7 @@ Jiaqi Xue, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Boloni, Qia
 Xiaogeng Liu, Nan Xu, Muhao Chen, Chaowei Xiao (2023)<br />
 </details>
 <details>
-<summary>Suffix Searchers</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Suffix Searchers</summary>
 
 <!-- Markdown content -->
 ## Prompt Searchers
@@ -423,9 +423,9 @@ Jiaxin Wen, Pei Ke, Hao Sun, Zhexin Zhang, Chengfei Li, Jinfeng Bai, Minlie Huan
 </details>
 
 <details>
-<summary>Defenses</summary>
+<summary style="font-size: 25px;">Defenses</summary>
 <details>
-<summary>Training Time Defenses</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Training Time Defenses</summary>
 
 <!-- Markdown content -->
 ## Training Time Defenses
@@ -472,7 +472,7 @@ Julien Piet, Maha Alrashed, Chawin Sitawarin, Sizhe Chen, Zeming Wei, Elizabeth 
 </details>
 
 <details>
-<summary>Training Time Defenses</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Training Time Defenses</summary>
 
 <!-- Markdown content -->
 ## Inference Time Defenses
@@ -588,9 +588,9 @@ Zhangchen Xu, Fengqing Jiang, Luyao Niu, Jinyuan Jia, Bill Yuchen Lin, Radha Poo
 </details>
 
 <details>
-<summary>Evaluations</summary>
+<summary style="font-size: 25px;">Evaluations</summary>
 <details>
-<summary>Evaluation Metrics</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Evaluation Metrics</summary>
 
 <!-- Markdown content -->
 ## Evaluation Metrics
@@ -609,7 +609,7 @@ Neeraj Varshney, Pavel Dolin, Agastya Seth, Chitta Baral (2023)<br />
 </details>
 
 <details>
-<summary>Evaluation Benchmarks</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Evaluation Benchmarks</summary>
 
 <!-- Markdown content -->
 ## Evaluation Benchmarks
@@ -655,9 +655,9 @@ Chia-Chien Hung, Wiem Ben Rim, Lindsay Frost, Lars Bruckner, Carolin Lawrence (2
 </details>
 
 <details>
-<summary>Applications</summary>
+<summary style="font-size: 25px;">Applications</summary>
 <details>
-<summary>Application Domains</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Application Domains</summary>
 
 <!-- Markdown content -->
 ## Application Domains
@@ -704,7 +704,7 @@ Sanghak Oh, Kiho Lee, Seonhye Park, Doowon Kim, Hyoungshick Kim (2023)<br />
 </details>
 
 <details>
-<summary>Application Risks</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Application Risks</summary>
 
 <!-- Markdown content -->
 ## Application Risks
@@ -728,10 +728,10 @@ Yiming Zhang, Nicholas Carlini, Daphne Ippolito (2023)<br />
 </details>
 
 <details>
-<summary>Multimodal Red Teaming</summary>
+<summary style="font-size: 25px;">Multimodal Red Teaming</summary>
 
 <details>
-<summary>Attack Strategies</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Attack Strategies</summary>
 
 <!-- Markdown content -->
 ## Attack Strategies
@@ -759,7 +759,7 @@ Yichen Gong, Delong Ran, Jinyuan Liu, Conglei Wang, Tianshuo Cong, Anyu Wang, Si
 Xunguang Wang, Zhenlan Ji, Pingchuan Ma, Zongjie Li, Shuai Wang (2023)<br />
 </details>
 <details>
-<summary>Attack Searchers</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Attack Searchers</summary>
 
 <!-- Markdown content -->
 ## Attack Searchers
@@ -788,7 +788,7 @@ Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao (2023)<br />
 Zhi-Yi Chin, Chieh-Ming Jiang, Ching-Chun Huang, Pin-Yu Chen, Wei-Chen Chiu (2023)<br />
 </details>
 <details>
-<summary>Defense</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Defense</summary>
 
 <!-- Markdown content -->
 ## Defense
@@ -816,7 +816,7 @@ Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, Chaowei Xiao (2024)<br />
 Yongshuo Zong, Ondrej Bohdal, Tingyang Yu, Yongxin Yang, Timothy Hospedales (2024)<br />
 </details>
 <details>
-<summary>Application</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Application</summary>
 
 <!-- Markdown content -->
 ## Application
@@ -835,7 +835,7 @@ Haoqin Tu, Chenhang Cui, Zijun Wang, Yiyang Zhou, Bingchen Zhao, Junlin Han, Wan
 Christophe Ropers, David Dale, Prangthip Hansanti, Gabriel Mejia Gonzalez, Ivan Evtimov, Corinne Wong, Christophe Touret, Kristina Pereyra, Seohyun Sonia Kim, Cristian Canton Ferrer, Pierre Andrews, Marta R. Costa-jussà (2024)<br />
 </details>
 <details>
-<summary>Benchmarks</summary>
+<summary style="font-size: 20px; margin-left: 20px;">Benchmarks</summary>
 
 <!-- Markdown content -->
 ## Benchmarks
