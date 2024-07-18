@@ -47,9 +47,9 @@ Suppose we normalize the capability score and safety score to the range [0, 1], 
 - Safety score: Each safety aspect is normalized to [0,100]. The overall safety score is the marco-average of the five safety aspects. Range in [0,100]. 
 - Balance score: The balance score is calculated by:
     1. Normalize the capability score to [0, 1] using the following formula:
-        - $normalized\_elo = \frac{original\_elo - min\_elo}{max\_elo - min\_elo}$
+        - $normalized\\_{elo} = \frac{original\\_elo - min\\_elo}{max\\_elo - min\\_elo}$
     2. After normalizing the capability score $x$ and safety score $y$, calculate the balance score using the following formula:
-        - $balance\_score = 1 - \sqrt{\frac{(1-x)^2 + (1-y)^2}{2}}$
+        - $balance\\_{score} = 1 - \sqrt{\frac{(1-x)^2 + (1-y)^2}{2}}$
 
 
 ## How to submit
