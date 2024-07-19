@@ -46,7 +46,7 @@ Suppose we normalize the capability score and safety score to the range [0, 1], 
 
 - Capability score: The capability score is copied from the [Chatbot Arena leaderboard](https://chat.lmsys.org/). Range roughly in [800, 1500] (not fixed). The capability score is normalized to [0, 1] using the following formula: $\frac{\text{Elo} - \texttt{min}(\text{Elo})}{\texttt{max}(\text{Elo}) - \texttt{min}(\text{Elo})}$
 - Safety score: Each safety aspect is normalized to [0,1]. The overall safety score is the marco-average of the five safety aspects. Range in [0,1]. 
-- Balance score: The balance score is calculated according to the normalized Euclidean distance to the Utopia Point (a hypothetical model which achieves both optimal capability and safety simultaneously):
+- Utopia Score: The Utopia score is calculated according to the normalized Euclidean distance to the Utopia Point (a hypothetical model which achieves both optimal capability and safety simultaneously):
 
     $\text{Utopia Score} = 1 - \sqrt{\frac{(1-\text{Capability})^2 + (1-\text{Safety})^2}{2}}$
 
