@@ -1,4 +1,4 @@
-# Responsible AI Leaderboard
+# Responsible AI Leaderboard：Balancing Capability and Safety
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
 🔱 <a href="https://test.leaderboard.librai.tech/LeaderBoard" target="_blank" style="margin-left: 10px">Leaderboard</a>
@@ -7,8 +7,9 @@
 This leaderboard focuses on the balance between the safety and capability of AI models. 
 - **Capability**: The capability of AI models. Currently, we consider the models as chatbots only.
 - **Safety**: The safety of AI models, evaluated using several safety datasets from five aspects (see [Safety](#Safety)).
-- **Balance**: We calculate the combined score of each model using the method introduced [here](#Balance-between-safety-and-capability).
-
+- **Utopia Score**: We introduce the Utopia Score (ranging between 0-1, larger is better) to measure the balance and trade-off between capability and safety of each model using the method introduced [here](#Balance-between-safety-and-capability). 
+  
+  In short, a models' Utopia Score is negatively correlated with its distance to the Utopia Point, where the utopia point is a hypothetical point in the objective space where each objective (capability and safety for now) attains its optimal value simultaneously. 
 
 ## Safety
 
@@ -43,14 +44,14 @@ Suppose we normalize the capability score and safety score to the range [0, 1], 
 
 ## Score Calculation
 
-- Capability score: The capability score is copied from the [Chatbot Arena leaderboard](https://chat.lmsys.org/). Range roughly in [800, 1500] (not fixed).
-- Safety score: Each safety aspect is normalized to [0,100]. The overall safety score is the marco-average of the five safety aspects. Range in [0,100]. 
-- Balance score: The balance score is calculated by:
-    1. Normalize the capability score to [0, 1] using the following formula:
-        - $normalized\\_{elo} = \frac{original\\_elo - min\\_elo}{max\\_elo - min\\_elo}$
-    2. After normalizing the capability score $x$ and safety score $y$, calculate the balance score using the following formula:
-        - $balance\\_{score} = 1 - \sqrt{\frac{(1-x)^2 + (1-y)^2}{2}}$
+- Capability score: The capability score is copied from the [Chatbot Arena leaderboard](https://chat.lmsys.org/). Range roughly in [800, 1500] (not fixed). The capability score is normalized to [0, 1] using the following formula: $\frac{\text{Elo} - \texttt{min}(\text{Elo})}{\texttt{max}(\text{Elo}) - \texttt{min}(\text{Elo})}$
+- Safety score: Each safety aspect is normalized to [0,1]. The overall safety score is the marco-average of the five safety aspects. Range in [0,1]. 
+- Balance score: The balance score is calculated according to the normalized Euclidean distance to the Utopia Point (a hypothetical model which achieves both optimal capability and safety simultaneously):
 
+    $\text{Utopia Score} = 1 - \sqrt{\frac{(1-\text{Capability})^2 + (1-\text{Safety})^2}{2}}$
+
+
+For more details about score aggregation and calculation, please read our [paper](https://aclanthology.org/2023.eacl-main.23.pdf) published at EACL-23.
 
 ## How to submit
 
