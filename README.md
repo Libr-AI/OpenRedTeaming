@@ -195,6 +195,10 @@ To stay updated or try our RedTeaming tool, please subscribe to our newsletter a
 <!-- Yu Fu, Yufei Li, Wen Xiao, Cong Liu, Yue Dong (2023)<br /> -->
 - **Cognitive Overload: Jailbreaking Large Language Models with Overloaded Logical Thinking** \[[Paper](https://arxiv.org/abs/2311.09827)\] <br />
 <!-- Nan Xu, Fei Wang, Ben Zhou, Bang Zheng Li, Chaowei Xiao, Muhao Chen (2023)<br /> -->
+- **Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models** \[[Paper](https://arxiv.org/abs/2410.11459)\] <br />
+<!-- Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br /> -->
+- **Audio Is the Achilles' Heel: Red Teaming Audio Large Multimodal Models** \[[Paper](https://arxiv.org/abs/2410.23861)\] <br />
+<!-- Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br /> -->
 
 ## Generalization Glide
 ### Languages
