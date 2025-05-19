@@ -552,6 +552,8 @@ Xuchen Suo (2024)<br />
 <!-- Neeraj Varshney, Pavel Dolin, Agastya Seth, Chitta Baral (2023)<br /> -->
 
 ## Evaluation Benchmarks
+- **CircleGuardBench - A full-fledged benchmark for evaluating protection capabilities of AI models** \[[Blog](https://huggingface.co/blog/whitecircle-ai/circleguardbench)\] <br />
+<!-- Alex Wortega, Sergey Bratchikov, Konstantin Korolev, Denis Shilov, Igor Iunash, Dmitrii Kharlapenko, Lena Iumagulova, Dmitrii Shcherbakov (2025)<br /> -->
 - **JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models** \[[Paper](https://arxiv.org/abs/2404.01318)\] <br />
 <!-- Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong (2024)<br /> -->
 - **SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety** \[[Paper](https://arxiv.org/abs/2404.05399)\] <br />
