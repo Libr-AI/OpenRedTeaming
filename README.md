@@ -137,6 +137,8 @@ To stay updated or try our RedTeaming tool, please subscribe to our newsletter a
 <summary><h2>Attack Strategies</h2></summary>
 
 ## Completion Compliance
+- **Internal Safety Collapse in Frontier Large Language Models** \[[Paper](https://arxiv.org/abs/2603.23509)\] \[[Code](https://github.com/wuyoscar/ISC-Bench)\] <br />
+<!-- Yutao Wu, Jie Zhang, Tianwei Zhang, Xingjun Ma (2026). Jailbreaks any frontier LLM in pass@3 (Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro). Novel failure mode: task completion overrides safety. Black-box, cross-domain, cross-science. -->
 - **Few-Shot Adversarial Prompt Learning on Vision-Language Models** \[[Paper](https://arxiv.org/abs/2403.14774)\] <br />
 <!-- Yiwei Zhou, Xiaobo Xia, Zhiwei Lin, Bo Han, Tongliang Liu (2024)<br /> -->
 - **Hijacking Context in Large Multi-modal Models** \[[Paper](https://arxiv.org/abs/2312.07553)\] <br />
