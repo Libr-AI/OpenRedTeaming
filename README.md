@@ -298,6 +298,8 @@ To stay updated or try our RedTeaming tool, please subscribe to our newsletter a
 <summary><h2>Attack Searcher</h2></summary>
 
 ## Suffix Searchers
+- **Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models** \[[Paper](https://arxiv.org/abs/2501.18280)\] <br />
+<!-- Haoyu Liang, Youran Sun, Yunfeng Cai, Jun Zhu, Bo Zhang (2025)<br /> -->
 - **Prompting4Debugging: Red-Teaming Text-to-Image Diffusion Models by Finding Problematic Prompts** \[[Paper](https://arxiv.org/abs/2309.06135)\] <br />
 <!-- Zhi-Yi Chin, Chieh-Ming Jiang, Ching-Chun Huang, Pin-Yu Chen, Wei-Chen Chiu (2023)<br /> -->
 - **From Noise to Clarity: Unraveling the Adversarial Suffix of Large Language Model Attacks via Translation of Text Embeddings** \[[Paper](https://arxiv.org/abs/2402.16006)\] <br />
