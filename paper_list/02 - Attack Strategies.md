@@ -18,6 +18,8 @@
 		 - [Pipeline Trust Exploitation / Second-Order Injection](#pipeline-trust-exploitation--second-order-injection)
 		 - [Human-in-the-Loop and Legitimate-in-the-Loop Attacks](#human-in-the-loop-and-legitimate-in-the-loop-attacks)
 		 - [Identity Anchor Attacks](#identity-anchor-attacks)
+	 - [Detection Validation & Adversarial Simulation Frameworks](#detection-validation--adversarial-simulation-frameworks)
+		 - [Synthetic Telemetry Generation](#synthetic-telemetry-generation)
 
 ## Completion Compliance
 ### In-Context Learning
@@ -296,3 +298,14 @@ AIM Intelligence (2026)<br />
 *(see also: Phenomenons section)*<br />
 - **GNOME: A Field Journal of Drift, Control, and Learning in Public** \[[Paper](https://dev.to/gnomeman4201/i-built-a-policy-drift-detector-for-llm-agents-heres-what-four-versions-taught-me-2be)\] <br />
 GnomeMan4201 / badBANANA Research Collective (2026) *(introduces Reflexive Identity as a named attack class targeting session-level identity anchors in deployed agents)*<br />
+
+## Detection Validation & Adversarial Simulation Frameworks
+
+Frameworks for generating adversarial-shaped telemetry in controlled environments — enabling detection engineers and SOC teams to validate rule coverage, test SIEM/EDR behavioral engines, and measure detection gaps without executing real attacks or introducing live malware into instrumented environments.
+
+### Synthetic Telemetry Generation
+
+Tools that simulate the *behavioral signatures* of adversarial techniques — producing structured, inert telemetry artifacts that map to ATT&CK techniques — rather than executing payloads or exploits.
+
+- **SHENRON: Observable Adversarial Behavior, Not Portable Adversarial Procedure** \[[Repo](https://github.com/GnomeMan4201/shenron)\] \[[Article](https://dev.to/gnomeman4201/observable-adversarial-behavior-not-portable-adversarial-procedure)\] <br />
+GnomeMan4201 / badBANANA Research Collective (2025) *(polymorphic adversarial simulation framework; generates inert ATT&CK-mapped telemetry across multi-stage kill chains for detection rule validation, Sigma rule testing, and SOC tabletop exercises; introduces stealth scoring model for quantifying detection surface per technique)*<br />
