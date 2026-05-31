@@ -14,6 +14,11 @@
 		 - [Backdoor Attacks](#backdoor-attacks)
 		 - [Model Fine-tuning](#model-fine-tuning)
 		 - [Activations Manipulation](#activations-manipulation)
+	 - [Agentic Attack Surfaces](#agentic-attack-surfaces)
+		 - [Pipeline Trust Exploitation / Second-Order Injection](#pipeline-trust-exploitation--second-order-injection)
+		 - [Human-in-the-Loop and Legitimate-in-the-Loop Attacks](#human-in-the-loop-and-legitimate-in-the-loop-attacks)
+		 - [Identity Anchor Attacks](#identity-anchor-attacks)
+
 ## Completion Compliance
 ### In-Context Learning
 - **Few-Shot Adversarial Prompt Learning on Vision-Language Models** \[[Paper](https://arxiv.org/abs/2403.14774)\] <br />
@@ -30,29 +35,23 @@ Yao Qiang,  Xiangyu Zhou,  Dongxiao Zhu (2023)<br />
 Yanrui Du,  Sendong Zhao,  Ming Ma,  Yuhan Chen,  Bing Qin (2023)<br />
 - **Bypassing the Safety Training of Open-Source LLMs with Priming Attacks** \[[Paper](https://arxiv.org/abs/2312.12321)\] <br />
 Jason Vega,  Isha Chaudhary,  Changming Xu,  Gagandeep Singh (2023)<br />
-- **Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses** \[[Paper](https://arxiv.org/abs/2406.01288
-   )\] <br />
+- **Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses** \[[Paper](https://arxiv.org/abs/2406.01288)\] <br />
 Xiaosen Zheng,  Tianyu Pang,  Chao Du,  Qian Liu,  Jing Jiang,  Min Lin (2024)<br />
-- **Don't Say No: Jailbreaking LLM by Suppressing Refusal** \[[Paper](https://arxiv.org/abs/2404.16369
-   )\] <br />
+- **Don't Say No: Jailbreaking LLM by Suppressing Refusal** \[[Paper](https://arxiv.org/abs/2404.16369)\] <br />
 Yukai Zhou,  Wenjie Wang (2024)<br />
-- **Improved Generation of Adversarial Examples Against Safety-aligned LLMs** \[[Paper](https://arxiv.org/abs/2405.20778
-   )\] <br />
+- **Improved Generation of Adversarial Examples Against Safety-aligned LLMs** \[[Paper](https://arxiv.org/abs/2405.20778)\] <br />
 Qizhang Li,  Yiwen Guo,  Wangmeng Zuo,  Hao Chen (2024)<br />
-- **Large Language Models Are Involuntary Truth-Tellers: Exploiting Fallacy Failure for Jailbreak Attacks** \[[Paper](https://arxiv.org/abs/2407.00869
-   )\] <br />
+- **Large Language Models Are Involuntary Truth-Tellers: Exploiting Fallacy Failure for Jailbreak Attacks** \[[Paper](https://arxiv.org/abs/2407.00869)\] <br />
 Yue Zhou,  Henry Peng Zou,  Barbara Di Eugenio,  Yang Zhang (2024)<br />
 - **Universal Vulnerabilities in Large Language Models: Backdoor Attacks for In-context Learning** \[[Paper](https://arxiv.org/abs/2401.05949)\] <br />
 Shuai Zhao,  Meihuizi Jia,  Luu Anh Tuan,  Fengjun Pan,  Jinming Wen (2024)<br />
+
 ### Multi turn Dialog
-- **Investigating the prompt leakage effect and black-box defenses for multi-turn LLM interactions** \[[Paper](https://arxiv.org/abs/2404.16251
-   )\] <br />
+- **Investigating the prompt leakage effect and black-box defenses for multi-turn LLM interactions** \[[Paper](https://arxiv.org/abs/2404.16251)\] <br />
 Divyansh Agarwal,  Alexander R. Fabbri,  Philippe Laban,  Ben Risher,  Shafiq Joty,  Caiming Xiong,  Chien-Sheng Wu (2024)<br />
-- **CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference** \[[Paper](https://arxiv.org/abs/2406.17626
-   )\] <br />
+- **CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference** \[[Paper](https://arxiv.org/abs/2406.17626)\] <br />
 Erxin Yu,  Jing Li,  Ming Liao,  Siqi Wang,  Zuchen Gao,  Fei Mi,  Lanqing Hong (2024)<br />
-- **Chain of Attack: a Semantic-Driven Contextual Multi-Turn attacker for LLM** \[[Paper](https://arxiv.org/abs/2405.05610
-   )\] <br />
+- **Chain of Attack: a Semantic-Driven Contextual Multi-Turn attacker for LLM** \[[Paper](https://arxiv.org/abs/2405.05610)\] <br />
 Xikang Yang,  Xuehai Tang,  Songlin Hu,  Jizhong Han (2024)<br />
 - **Great,Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack** \[[Paper](https://arxiv.org/abs/2404.01833)\] <br />
 Mark Russinovich,  Ahmed Salem,  Ronen Eldan (2024)<br />
@@ -60,19 +59,17 @@ Mark Russinovich,  Ahmed Salem,  Ronen Eldan (2024)<br />
 Zhen Xiang,  Fengqing Jiang,  Zidi Xiong,  Bhaskar Ramasubramanian,  Radha Poovendran,  Bo Li (2024)<br />
 - **Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment** \[[Paper](https://arxiv.org/abs/2308.09662)\] <br />
 Rishabh Bhardwaj,  Soujanya Poria (2023)<br />
+
 ### Special Tokens
-- **Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens** \[[Paper](https://arxiv.org/abs/2405.20653
-   )\] <br />
+- **Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens** \[[Paper](https://arxiv.org/abs/2405.20653)\] <br />
 Jiahao Yu,  Haozheng Luo,  Jerry Yao-Chieh Hu,  Wenbo Guo,  Han Liu,  Xinyu Xing (2024)<br />
-- **Talk Too Much: Poisoning Large Language Models under Token Limit** \[[Paper](https://arxiv.org/abs/2404.14795
-   )\] <br />
+- **Talk Too Much: Poisoning Large Language Models under Token Limit** \[[Paper](https://arxiv.org/abs/2404.14795)\] <br />
 Jiaming He,  Wenbo Jiang,  Guanyu Hou,  Wenshu Fan,  Rui Zhang,  Hongwei Li (2024)<br />
-- **ChatBug: A Common Vulnerability of Aligned LLMs Induced by Chat Templates** \[[Paper](https://arxiv.org/abs/2406.12935
-   )\] <br />
+- **ChatBug: A Common Vulnerability of Aligned LLMs Induced by Chat Templates** \[[Paper](https://arxiv.org/abs/2406.12935)\] <br />
 Fengqing Jiang,  Zhangchen Xu,  Luyao Niu,  Bill Yuchen Lin,  Radha Poovendran (2024)<br />
-- **Not All Prompts Are Secure: A Switchable Backdoor Attack Against Pre-trained Vision Transformers** \[[Paper](https://arxiv.org/abs/2405.10612
-   )\] <br />
+- **Not All Prompts Are Secure: A Switchable Backdoor Attack Against Pre-trained Vision Transformers** \[[Paper](https://arxiv.org/abs/2405.10612)\] <br />
 Sheng Yang,  Jiawang Bai,  Kuofeng Gao,  Yong Yang,  Yiming Li,  Shu-tao Xia (2024)<br />
+
 ## Instruction Indirection
 - **On the Robustness of Large Multimodal Models Against Image Adversarial Attacks** \[[Paper](https://arxiv.org/abs/2312.03777)\] <br />
 Xuanming Cui,  Alejandro Aparcedo,  Young Kyun Jang,  Ser-Nam Lim (2023)<br />
@@ -88,36 +85,27 @@ Erfan Shayegani,  Yue Dong,  Nael Abu-Ghazaleh (2023)<br />
 Xunguang Wang,  Zhenlan Ji,  Pingchuan Ma,  Zongjie Li,  Shuai Wang (2023)<br />
 - **FigStep: Jailbreaking Large Vision-language Models via Typographic Visual Prompts** \[[Paper](https://arxiv.org/abs/2311.05608)\] <br />
 Yichen Gong,  Delong Ran,  Jinyuan Liu,  Conglei Wang,  Tianshuo Cong,  Anyu Wang,  Sisi Duan,  Xiaoyun Wang (2023)<br />
-- **Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models** \[[Paper](https://arxiv.org/abs/2405.20775
-   )\] <br />
+- **Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models** \[[Paper](https://arxiv.org/abs/2405.20775)\] <br />
 Xijie Huang,  Xinyuan Wang,  Hantao Zhang,  Jiawen Xi,  Jingkun An,  Hao Wang,  Chengwei Pan (2024)<br />
-- **Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs** \[[Paper](https://arxiv.org/abs/2307.1049)\] <br />
+- **Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs** \[[Paper](https://arxiv.org/abs/2307.10490)\] <br />
 Eugene Bagdasaryan,  Tsung-Yin Hsieh,  Ben Nassi,  Vitaly Shmatikov (2023)<br />
-- **Image-to-Text Logic Jailbreak: Your Imagination can Help You Do Anything** \[[Paper](https://arxiv.org/abs/2407.02534
-   )\] <br />
+- **Image-to-Text Logic Jailbreak: Your Imagination can Help You Do Anything** \[[Paper](https://arxiv.org/abs/2407.02534)\] <br />
 Xiaotian Zou,  Yongkang Chen (2024)<br />
-- **From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking** \[[Paper](https://arxiv.org/abs/2406.14859
-   )\] <br />
+- **From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking** \[[Paper](https://arxiv.org/abs/2406.14859)\] <br />
 Siyuan Wang,  Zhuohan Long,  Zhihao Fan,  Zhongyu Wei (2024)<br />
-- **Unveiling the Safety of GPT-4o: An Empirical Study using Jailbreak Attacks** \[[Paper](https://arxiv.org/abs/2406.06302
-   )\] <br />
+- **Unveiling the Safety of GPT-4o: An Empirical Study using Jailbreak Attacks** \[[Paper](https://arxiv.org/abs/2406.06302)\] <br />
 Zonghao Ying,  Aishan Liu,  Xianglong Liu,  Dacheng Tao (2024)<br />
-- **Voice Jailbreak Attacks Against GPT-4o** \[[Paper](https://arxiv.org/abs/2405.19103
-   )\] <br />
+- **Voice Jailbreak Attacks Against GPT-4o** \[[Paper](https://arxiv.org/abs/2405.19103)\] <br />
 Xinyue Shen,  Yixin Wu,  Michael Backes,  Yang Zhang (2024)<br />
 - **Nevermind: Instruction Override and Moderation in Large Language Models** \[[Paper](https://arxiv.org/abs/2402.03303)\] <br />
 Edward Kim (2024)<br />
-- **Can LLMs Deeply Detect Complex Malicious Queries? A Framework for Jailbreaking via Obfuscating Intent** \[[Paper](https://arxiv.org/abs/2405.03654
-   )\] <br />
+- **Can LLMs Deeply Detect Complex Malicious Queries? A Framework for Jailbreaking via Obfuscating Intent** \[[Paper](https://arxiv.org/abs/2405.03654)\] <br />
 Shang Shang,  Xinqiang Zhao,  Zhongjiang Yao,  Yepeng Yao,  Liya Su,  Zijing Fan,  Xiaodan Zhang,  Zhengwei Jiang (2024)<br />
-- **Hidden You Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Logic Chain Injection** \[[Paper](https://arxiv.org/abs/2404.04849
-   )\] <br />
+- **Hidden You Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Logic Chain Injection** \[[Paper](https://arxiv.org/abs/2404.04849)\] <br />
 Zhilong Wang,  Yebo Cao,  Peng Liu (2024)<br />
-- **ObscurePrompt: Jailbreaking Large Language Models via Obscure Input** \[[Paper](https://arxiv.org/abs/2406.13662
-   )\] <br />
+- **ObscurePrompt: Jailbreaking Large Language Models via Obscure Input** \[[Paper](https://arxiv.org/abs/2406.13662)\] <br />
 Yue Huang,  Jingyu Tang,  Dongping Chen,  Bingda Tang,  Yao Wan,  Lichao Sun,  Xiangliang Zhang (2024)<br />
-- **Preemptive Answer "Attacks" on Chain-of-Thought Reasoning** \[[Paper](https://arxiv.org/abs/2405.20902
-   )\] <br />
+- **Preemptive Answer "Attacks" on Chain-of-Thought Reasoning** \[[Paper](https://arxiv.org/abs/2405.20902)\] <br />
 Rongwu Xu,  Zehan Qi,  Wei Xu (2024)<br />
 - **Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues** \[[Paper](https://arxiv.org/abs/2402.09091)\] <br />
 Zhiyuan Chang,  Mingyang Li,  Yi Liu,  Junjie Wang,  Qing Wang,  Yang Liu (2024)<br />
@@ -139,10 +127,10 @@ Nan Xu,  Fei Wang,  Ben Zhou,  Bang Zheng Li,  Chaowei Xiao,  Muhao Chen (2023)<
 Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br />
 - **Audio Is the Achilles' Heel: Red Teaming Audio Large Multimodal Models** \[[Paper](https://arxiv.org/abs/2410.23861)\] <br />
 Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br />
+
 ## Generalization Glide
 ### Languages
-- **Jailbreaking LLMs with Arabic Transliteration and Arabizi** \[[Paper](https://arxiv.org/abs/2406.18725
-   )\] <br />
+- **Jailbreaking LLMs with Arabic Transliteration and Arabizi** \[[Paper](https://arxiv.org/abs/2406.18725)\] <br />
 Mansour Al Ghanim,  Saleh Almohaimeed,  Mengxin Zheng,  Yan Solihin,  Qian Lou (2024)<br />
 - **Backdoor Attack on Multilingual Machine Translation** \[[Paper](https://arxiv.org/abs/2404.02393)\] <br />
 Jun Wang,  Qiongkai Xu,  Xuanli He,  Benjamin I. P. Rubinstein,  Trevor Cohn (2024)<br />
@@ -156,6 +144,7 @@ Jie Li,  Yi Liu,  Chongyang Liu,  Ling Shi,  Xiaoning Ren,  Yaowen Zheng,  Yang 
 Zheng-Xin Yong,  Cristina Menghini,  Stephen H. Bach (2023)<br />
 - **Multilingual Jailbreak Challenges in Large Language Models** \[[Paper](https://arxiv.org/abs/2310.06474)\] <br />
 Yue Deng,  Wenxuan Zhang,  Sinno Jialin Pan,  Lidong Bing (2023)<br />
+
 ### Cipher
 - **Using Hallucinations to Bypass GPT4's Filter** \[[Paper](https://arxiv.org/abs/2403.04769)\] <br />
 Benjamin Lemkin (2024)<br />
@@ -169,18 +158,15 @@ Youliang Yuan,  Wenxiang Jiao,  Wenxuan Wang,  Jen-tse Huang,  Pinjia He,  Shumi
 Tong Liu,  Yingjie Zhang,  Zhe Zhao,  Yinpeng Dong,  Guozhu Meng,  Kai Chen (2024)<br />
 - **PRP: Propagating Universal Perturbations to Attack Large Language Model Guard-Rails** \[[Paper](https://arxiv.org/abs/2402.15911)\] <br />
 Neal Mangaokar,  Ashish Hooda,  Jihye Choi,  Shreyas Chandrashekaran,  Kassem Fawaz,  Somesh Jha,  Atul Prakash (2024)<br />
-- **Jailbreaking Large Language Models Against Moderation Guardrails via Cipher Characters** \[[Paper](https://arxiv.org/abs/2405.20413
-   )\] <br />
+- **Jailbreaking Large Language Models Against Moderation Guardrails via Cipher Characters** \[[Paper](https://arxiv.org/abs/2405.20413)\] <br />
 Haibo Jin,  Andy Zhou,  Joe D. Menke,  Haohan Wang (2024)<br />
-- **Revisiting character-level adversarial attacks** \[[Paper](https://arxiv.org/abs/2405.04346
-   )\] <br />
+- **Revisiting character-level adversarial attacks** \[[Paper](https://arxiv.org/abs/2405.04346)\] <br />
 Elias Abad Rocamora,  Yongtao Wu,  Fanghui Liu,  Grigorios G. Chrysos,  Volkan Cevher (2024)<br />
-- **Single Character Perturbations Break LLM Alignment** \[[Paper](https://arxiv.org/abs/2407.03232
-   )\] <br />
+- **Single Character Perturbations Break LLM Alignment** \[[Paper](https://arxiv.org/abs/2407.03232)\] <br />
 Leon Lin,  Hannah Brown,  Kenji Kawaguchi,  Michael Shieh (2024)<br />
-- **Enhance Robustness of Language Models Against Variation Attack through Graph Integration** \[[Paper](https://arxiv.org/abs/2404.12014
-   )\] <br />
+- **Enhance Robustness of Language Models Against Variation Attack through Graph Integration** \[[Paper](https://arxiv.org/abs/2404.12014)\] <br />
 Zi Xiong,  Lizhi Qing,  Yangyang Kang,  Jiawei Liu,  Hongsong Li,  Changlong Sun,  Xiaozhong Liu,  Wei Lu (2024)<br />
+
 ### Personification
 - **Exploiting Large Language Models (LLMs) through Deception Techniques and Persuasion Principles** \[[Paper](https://arxiv.org/abs/2311.14876)\] <br />
 Sonali Singh,  Faranak Abri,  Akbar Siami Namin (2023)<br />
@@ -194,21 +180,18 @@ Zaibin Zhang,  Yongting Zhang,  Lijun Li,  Hongzhi Gao,  Lijun Wang,  Huchuan Lu
 Yi Zeng,  Hongpeng Lin,  Jingwen Zhang,  Diyi Yang,  Ruoxi Jia,  Weiyan Shi (2024)<br />
 - **Foot In The Door: Understanding Large Language Model Jailbreaking via Cognitive Psychology** \[[Paper](https://arxiv.org/abs/2402.1569)\] <br />
 Zhenhua Wang,  Wei Xie,  Baosheng Wang,  Enze Wang,  Zhiwen Gui,  Shuoyoucheng Ma,  Kai Chen (2024)<br />
-- **Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective** \[[Paper](https://arxiv.org/abs/2406.14023
-   )\] <br />
+- **Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective** \[[Paper](https://arxiv.org/abs/2406.14023)\] <br />
 Yuchen Wen,  Keping Bi,  Wei Chen,  Jiafeng Guo,  Xueqi Cheng (2024)<br />
-- **SoP: Unlock the Power of Social Facilitation for Automatic Jailbreak Attack** \[[Paper](https://arxiv.org/abs/2407.01902
-   )\] <br />
+- **SoP: Unlock the Power of Social Facilitation for Automatic Jailbreak Attack** \[[Paper](https://arxiv.org/abs/2407.01902)\] <br />
 Yan Yang,  Zeguan Xiao,  Xin Lu,  Hongru Wang,  Hailiang Huang,  Guanhua Chen,  Yun Chen (2024)<br />
-- **Defending Against Social Engineering Attacks in the Age of LLMs** \[[Paper](https://arxiv.org/abs/2406.12263
-   )\] <br />
+- **Defending Against Social Engineering Attacks in the Age of LLMs** \[[Paper](https://arxiv.org/abs/2406.12263)\] <br />
 Lin Ai,  Tharindu Kumarage,  Amrita Bhattacharjee,  Zizhou Liu,  Zheng Hui,  Michael Davinroy,  James Cook,  Laura Cassani,  Kirill Trapeznikov,  Matthias Kirchner,  Arslan Basharat,  Anthony Hoogs,  Joshua Garland,  Huan Liu,  Julia Hirschberg (2024)<br />
+
 ## Model Manipulation
 ### Backdoor Attacks
 - **Shadowcast: Stealthy Data Poisoning Attacks Against Vision-Language Models** \[[Paper](https://arxiv.org/abs/2402.06659)\] <br />
 Yuancheng Xu,  Jiarui Yao,  Manli Shu,  Yanchao Sun,  Zichu Wu,  Ning Yu,  Tom Goldstein,  Furong Huang (2024)<br />
-- **Physical Backdoor Attack can Jeopardize Driving with Vision-Large-Language Models** \[[Paper](https://arxiv.org/abs/2404.12916
-   )\] <br />
+- **Physical Backdoor Attack can Jeopardize Driving with Vision-Large-Language Models** \[[Paper](https://arxiv.org/abs/2404.12916)\] <br />
 Zhenyang Ni,  Rui Ye,  Yuxi Wei,  Zhen Xiang,  Yanfeng Wang,  Siheng Chen (2024)<br />
 - **What's in Your "Safe" Data?: Identifying Benign Data that Breaks Safety** \[[Paper](https://arxiv.org/abs/2404.01099)\] <br />
 Luxi He,  Mengzhou Xia,  Peter Henderson (2024)<br />
@@ -238,6 +221,7 @@ Javier Rando,  Florian Tramèr (2023)<br />
 Yuanpu Cao,  Bochuan Cao,  Jinghui Chen (2023)<br />
 - **Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models** \[[Paper](https://arxiv.org/abs/2305.1471)\] <br />
 Jiashu Xu,  Mingyu Derek Ma,  Fei Wang,  Chaowei Xiao,  Muhao Chen (2023)<br />
+
 ### Model Fine-tuning
 - **Shadow Alignment: The Ease of Subverting Safely-Aligned Language Models** \[[Paper](https://arxiv.org/abs/2310.02949)\] <br />
 Xianjun Yang,  Xiao Wang,  Qi Zhang,  Linda Petzold,  William Yang Wang,  Xun Zhao,  Dahua Lin (2023)<br />
@@ -257,28 +241,58 @@ Qiusi Zhan,  Richard Fang,  Rohan Bindu,  Akul Gupta,  Tatsunori Hashimoto,  Dan
 Hongyi Liu,  Zirui Liu,  Ruixiang Tang,  Jiayi Yuan,  Shaochen Zhong,  Yu-Neng Chuang,  Li Li,  Rui Chen,  Xia Hu (2024)<br />
 - **Emulated Disalignment: Safety Alignment for Large Language Models May Backfire!** \[[Paper](https://arxiv.org/abs/2402.12343)\] <br />
 Zhanhui Zhou,  Jie Liu,  Zhichen Dong,  Jiaheng Liu,  Chao Yang,  Wanli Ouyang,  Yu Qiao (2024)<br />
-- **Covert Malicious Finetuning: Challenges in Safeguarding LLM Adaptation** \[[Paper](https://arxiv.org/abs/2406.20053
-   )\] <br />
+- **Covert Malicious Finetuning: Challenges in Safeguarding LLM Adaptation** \[[Paper](https://arxiv.org/abs/2406.20053)\] <br />
 Danny Halawi,  Alexander Wei,  Eric Wallace,  Tony T. Wang,  Nika Haghtalab,  Jacob Steinhardt (2024)<br />
-- **Transforming Computer Security and Public Trust Through the Exploration of Fine-Tuning Large Language Models** \[[Paper](https://arxiv.org/abs/2406.00628
-   )\] <br />
+- **Transforming Computer Security and Public Trust Through the Exploration of Fine-Tuning Large Language Models** \[[Paper](https://arxiv.org/abs/2406.00628)\] <br />
 Garrett Crumrine,  Izzat Alsmadi,  Jesus Guerrero,  Yuvaraj Munian (2024)<br />
 - **Increased LLM Vulnerabilities from Fine-tuning and Quantization** \[[Paper](https://arxiv.org/abs/2404.04392)\] <br />
 Divyanshu Kumar,  Anurakt Kumar,  Sahil Agarwal,  Prashanth Harshangi (2024)<br />
-- **Best-of-Venom: Attacking RLHF by Injecting Poisoned Preference Data** \[[Paper](https://arxiv.org/abs/2404.05530
-   )\] <br />
+- **Best-of-Venom: Attacking RLHF by Injecting Poisoned Preference Data** \[[Paper](https://arxiv.org/abs/2404.05530)\] <br />
 Tim Baumgärtner,  Yang Gao,  Dana Alon,  Donald Metzler (2024)<br />
-- **No Two Devils Alike: Unveiling Distinct Mechanisms of Fine-tuning Attacks** \[[Paper](https://arxiv.org/abs/2405.16229
-   )\] <br />
+- **No Two Devils Alike: Unveiling Distinct Mechanisms of Fine-tuning Attacks** \[[Paper](https://arxiv.org/abs/2405.16229)\] <br />
 Chak Tou Leong,  Yi Cheng,  Kaishuai Xu,  Jian Wang,  Hanlin Wang,  Wenjie Li (2024)<br />
-- **Badllama 3: removing safety finetuning from Llama 3 in minutes** \[[Paper](https://arxiv.org/abs/2407.01376
-   )\] <br />
+- **Badllama 3: removing safety finetuning from Llama 3 in minutes** \[[Paper](https://arxiv.org/abs/2407.01376)\] <br />
 Dmitrii Volkov (2024)<br />
-- **No Two Devils Alike: Unveiling Distinct Mechanisms of Fine-tuning Attacks** \[[Paper](https://arxiv.org/abs/2405.16229
-   )\] <br />
-Chak Tou Leong,  Yi Cheng,  Kaishuai Xu,  Jian Wang,  Hanlin Wang,  Wenjie Li (2024)<br />
+
 ### Activations Manipulation
 - **Open the Pandora's Box of LLMs: Jailbreaking LLMs through Representation Engineering** \[[Paper](https://arxiv.org/abs/2401.06824)\] <br />
 Tianlong Li,  Shihan Dou,  Wenhao Liu,  Muling Wu,  Changze Lv,  Xiaoqing Zheng,  Xuanjing Huang (2024)<br />
 - **Scaling Laws for Adversarial Attacks on Language Model Activations** \[[Paper](https://arxiv.org/abs/2312.0278)\] <br />
 Stanislav Fort (2023)<br />
+
+## Agentic Attack Surfaces
+
+Unlike prompt-level attacks, agentic attack surfaces target the trust relationships and operational assumptions of deployed agent systems — tool pipelines, operator layers, and session-level identity — rather than the model's content policies directly. These attacks often succeed without triggering any individual content refusal.
+
+### Pipeline Trust Exploitation / Second-Order Injection
+
+Attacks where adversarial instructions are delivered via the agent's own tool outputs, retrieved documents, or memory rather than the direct user channel. The agent processes them as trusted context, bypassing input-layer defenses.
+
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** \[[Paper](https://arxiv.org/abs/2302.12173)\] <br />
+Kai Greshake,  Sahar Abdelnabi,  Shailesh Mishra,  Christoph Endres,  Thorsten Holz,  Mario Fritz (2023)<br />
+- **Prompt Injection attack against LLM-integrated Applications** \[[Paper](https://arxiv.org/abs/2306.05499)\] <br />
+Yi Liu,  Gelei Deng,  Yuekang Li,  Kailong Wang,  Tianwei Zhang,  Yepang Liu,  Haoyu Wang,  Yan Zheng,  Yang Liu (2023)<br />
+- **InjectAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents** \[[Paper](https://arxiv.org/abs/2403.02691)\] <br />
+Qiusi Zhan,  Zhixiang Liang,  Zifan Ying,  Daniel Kang (2024)<br />
+- **AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents** \[[Paper](https://arxiv.org/abs/2406.13352)\] <br />
+Edoardo Debenedetti,  Jie Zhang,  Mislav Balunović,  Luca Beurer-Kellner,  Marc Fischer,  Florian Tramèr (2024)<br />
+
+### Human-in-the-Loop and Legitimate-in-the-Loop Attacks
+
+Attacks that exploit operator-level or human approval mechanisms to shift agent behavior. HITL attacks manipulate the human checkpoint itself; LITL attacks use plausible operator-level instructions to cumulatively drift the agent's operating mandate without triggering any individual refusal.
+
+- **Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs** \[[Paper](https://arxiv.org/abs/2307.10490)\] <br />
+Eugene Bagdasaryan,  Tsung-Yin Hsieh,  Ben Nassi,  Vitaly Shmatikov (2023)<br />
+- **GNOME: A Field Journal of Drift, Control, and Learning in Public** \[[Paper](https://dev.to/gnomeman4201/i-built-a-policy-drift-detector-for-llm-agents-heres-what-four-versions-taught-me-2be)\] <br />
+GnomeMan4201 / badBANANA Research Collective (2026) *(practitioner field documentation; introduces HITL/LITL attack taxonomy and Second-Order Injection framing for deployed agentic systems)*<br />
+
+### Identity Anchor Attacks
+
+Attacks that target the agent's persistent sense of role and operational scope across a session rather than per-turn content policies. Success is measured by mandate displacement — the agent operates outside its intended scope without ever crossing a flaggable content threshold.
+
+- **Eliciting and Analyzing Emergent Misalignment in State-of-the-Art Large Language Models** \[[Paper](https://arxiv.org/abs/2508.04196)\] <br />
+AIM Intelligence (2026)<br />
+- **Speak Out of Turn: Safety Vulnerability of Large Language Models in Multi-turn Dialogue** \[[Paper](https://arxiv.org/abs/2402.17262)\] <br />
+*(see also: Phenomenons section)*<br />
+- **GNOME: A Field Journal of Drift, Control, and Learning in Public** \[[Paper](https://dev.to/gnomeman4201/i-built-a-policy-drift-detector-for-llm-agents-heres-what-four-versions-taught-me-2be)\] <br />
+GnomeMan4201 / badBANANA Research Collective (2026) *(introduces Reflexive Identity as a named attack class targeting session-level identity anchors in deployed agents)*<br />
