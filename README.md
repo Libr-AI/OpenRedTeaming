@@ -199,6 +199,8 @@ To stay updated or try our RedTeaming tool, please subscribe to our newsletter a
 <!-- Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br /> -->
 - **Audio Is the Achilles' Heel: Red Teaming Audio Large Multimodal Models** \[[Paper](https://arxiv.org/abs/2410.23861)\] <br />
 <!-- Hao Yang,  Lizhen Qu,  Ehsan Shareghi,  Gholamreza Haffari (2024)<br /> -->
+- **Phi: Preference Hijacking in Multi-modal Large Language Models at Inference Time** \[[Paper](https://arxiv.org/abs/2509.12521)\] <br />
+<!-- Yifan Lan, Yuanpu Cao, Weitong Zhang, Lu Lin, Jinghui Chen (2025)<br /> -->
 
 ## Generalization Glide
 ### Languages
